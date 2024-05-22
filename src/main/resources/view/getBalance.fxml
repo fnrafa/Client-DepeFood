@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="280.0" stylesheets="@../assets/css/main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="page.CustomerMenu">
+    <Label fx:id="labelName" layoutX="20.0" layoutY="62.0" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="18.0" />
+        </font>
+    </Label>
+    <Button layoutX="18.0" layoutY="21.0" mnemonicParsing="false" onAction="#getBack" prefHeight="30.0" prefWidth="84.0" text="&lt; Kembali" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0" />
+        </font>
+    </Button>
+   <Label fx:id="labelBalance" layoutX="20.0" layoutY="89.0" textFill="#33272a">
+      <font>
+         <Font name="Nunito Regular" size="18.0" />
+      </font>
+   </Label>
+</AnchorPane>

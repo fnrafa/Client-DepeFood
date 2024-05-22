@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+
+AnchorPane {
+    -fx-padding: 20px 10px 20px 10px;
+    -fx-background-color: #fffffe;
+}
+
+DialogPane {
+    -fx-padding: 20px 10px 20px 10px;
+    -fx-background-color: #fffffe;
+}
+
+DialogPane .header-panel {
+    -fx-background-color: #fffffe;
+}
+
+Button {
+    -fx-padding: 5px;
+    -fx-background-color: #ff8ba7;
+    -fx-border-radius: 0;
+}
+
+TextField {
+    -fx-padding: 10px;
+    -fx-background-color: #faeee7;
+    -fx-border-radius: 0;
+    -fx-color-label-visible: #33272a;
+}
+
+TableView {
+    -fx-border-color: #33272a;
+    -fx-background-color: #fffffe;
+}
+
+columns {
+    -fx-background-color: #ff8ba7;
+}
+
+TableColumn {
+    -fx-background-color: #ff8ba7;
+}
+
+ComboBox {
+    -fx-padding: 5px;
+    -fx-background-color: #faeee7;
+    -fx-color-label-visible: #33272a;
+}
+
+DatePicker {
+    -fx-padding: 5px;
+    -fx-background-color: #faeee7;
+    -fx-color-label-visible: #33272a;
+}

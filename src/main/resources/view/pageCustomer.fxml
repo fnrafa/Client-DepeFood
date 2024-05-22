@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="420.0" prefWidth="280.0" stylesheets="@../assets/css/main.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="page.CustomerMenu">
+    <Button layoutX="18.0" layoutY="222.0" mnemonicParsing="false" onAction="#setTambahPesananView" prefHeight="30.0" prefWidth="240.0" text="Buat Pesanan" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0" />
+        </font>
+    </Button>
+    <ImageView fitHeight="172.0" fitWidth="240.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../assets/images/image.png" />
+    </ImageView>
+    <Label layoutX="20.0" layoutY="190.0" text="DepeFood Customer" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="18.0" />
+        </font>
+    </Label>
+    <Button layoutX="18.0" layoutY="258.0" mnemonicParsing="false" onAction="#setCetakBillView" prefHeight="30.0" prefWidth="240.0" text="Cetak Bill" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0" />
+        </font>
+    </Button>
+    <Button layoutX="18.0" layoutY="294.0" mnemonicParsing="false" onAction="#setBayarBillView" prefHeight="30.0" prefWidth="240.0" text="Bayar Bill" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0" />
+        </font>
+    </Button>
+    <Button layoutX="18.0" layoutY="330.0" mnemonicParsing="false" onAction="#setCekSaldoView" prefHeight="30.0" prefWidth="240.0" text="Cek Saldo" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0" />
+        </font>
+    </Button>
+    <Button layoutX="18.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="30.0" prefWidth="240.0" text="Log out" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0" />
+        </font>
+    </Button>
+</AnchorPane>

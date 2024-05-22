@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="420.0" prefWidth="280.0" stylesheets="@../assets/css/main.css"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="page.AdminMenu">
+    <Button layoutX="18.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleTambahMenuRestoran"
+            prefHeight="30.0" prefWidth="240.0" text="Tambahkan Menu" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0"/>
+        </font>
+    </Button>
+    <Label layoutX="20.0" layoutY="62.0" text="Tambah Menu" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="18.0"/>
+        </font>
+    </Label>
+    <Button layoutX="18.0" layoutY="21.0" mnemonicParsing="false" onAction="#getBack" prefHeight="30.0" prefWidth="84.0"
+            text="&lt; Kembali" textAlignment="CENTER" textFill="#33272a">
+        <font>
+            <Font name="Nunito Regular" size="14.0"/>
+        </font>
+    </Button>
+    <TextField fx:id="inputMenu" layoutX="18.0" layoutY="136.0" prefHeight="37.0" prefWidth="240.0"
+               promptText="Masukan Nama Menu"/>
+    <ComboBox fx:id="boxRestaurant" layoutX="18.0" layoutY="93.0" prefHeight="30.0" prefWidth="240.0"
+              promptText="Pilih Restaurant"/>
+    <TextField fx:id="inputPrice" layoutX="18.0" layoutY="180.0" prefHeight="37.0" prefWidth="240.0"
+               promptText="Masukan Harga Menu"/>
+</AnchorPane>
